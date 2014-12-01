@@ -1,0 +1,43 @@
+v 20130925 2
+B 300 300 1000 500 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 600 300 600 1 0 0
+{
+T 0 600 5 10 0 0 0 0 1
+pintype=pwr
+T 355 595 5 10 1 1 0 0 1
+pinlabel=IN
+T 205 645 5 10 1 1 0 6 1
+pinnumber=1
+T 0 600 5 10 0 0 0 0 1
+pinseq=1
+}
+P 1600 600 1300 600 1 0 0
+{
+T 1600 600 5 10 0 0 0 0 1
+pintype=out
+T 1245 595 5 10 1 1 0 6 1
+pinlabel=OUT
+T 1395 645 5 10 1 1 0 0 1
+pinnumber=2
+T 1600 600 5 10 0 0 0 0 1
+pinseq=2
+}
+P 800 0 800 300 1 0 0
+{
+T 800 0 5 10 0 0 0 0 1
+pintype=pwr
+T 945 500 5 10 1 1 180 0 1
+pinlabel=GND
+T 895 250 5 10 1 1 180 6 1
+pinnumber=3
+T 800 0 5 10 0 0 0 0 1
+pinseq=3
+}
+T 295 895 8 10 1 1 0 0 1
+refdes=U?
+T 295 1295 8 10 0 0 0 0 1
+numslots=1
+T 295 1495 8 10 0 0 0 0 1
+description=300nA NanoPower Voltage Reference
+T 1395 295 8 10 1 1 0 0 1
+device=ISL21080

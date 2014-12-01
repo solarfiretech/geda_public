@@ -1,0 +1,54 @@
+v 20130925 2
+B 300 300 1100 700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 800 1300 800 1000 1 0 0
+{
+T 800 1300 5 10 0 0 0 0 1
+pintype=pwr
+T 945 800 5 10 1 1 0 6 1
+pinlabel=VS
+T 750 1095 5 10 1 1 90 0 1
+pinnumber=4
+T 800 1300 5 10 0 0 0 0 1
+pinseq=4
+}
+P 800 0 800 300 1 0 0
+{
+T 800 0 5 10 0 0 0 0 1
+pintype=pwr
+T 1045 500 5 10 1 1 180 0 1
+pinlabel=GND
+T 750 205 5 10 1 1 90 6 1
+pinnumber=2
+T 800 0 5 10 0 0 0 0 1
+pinseq=2
+}
+P 1700 600 1400 600 1 0 0
+{
+T 1700 600 5 10 0 0 0 0 1
+pintype=out
+T 1345 595 5 10 1 1 0 6 1
+pinlabel=OUT
+T 1495 645 5 10 1 1 0 0 1
+pinnumber=1
+T 1700 600 5 10 0 0 0 0 1
+pinseq=1
+}
+P 0 600 300 600 1 0 0
+{
+T 0 600 5 10 0 0 0 0 1
+pintype=in
+T 355 595 5 10 1 1 0 0 1
+pinlabel=+IN
+T 205 645 5 10 1 1 0 6 1
+pinnumber=3
+T 0 600 5 10 0 0 0 0 1
+pinseq=3
+}
+T 995 1095 8 10 1 1 0 0 1
+refdes=U?
+T 995 1395 8 10 0 0 0 0 1
+device=LT6703-3
+T 995 1595 8 10 0 0 0 0 1
+description=Micropower, Low Voltage Comparator with 400mV Reference
+T 900 100 9 10 1 0 0 0 1
+LT6703-3

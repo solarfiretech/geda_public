@@ -1,0 +1,45 @@
+v 20130925 2
+B 300 200 1000 700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 500 300 500 1 0 0
+{
+T 0 500 5 10 0 0 0 0 1
+pintype=pwr
+T 355 495 5 10 1 1 0 0 1
+pinlabel=VDD
+T 205 545 5 10 1 1 0 6 1
+pinnumber=2
+T 0 500 5 10 0 0 0 0 1
+pinseq=2
+}
+P 1600 300 1300 300 1 0 0
+{
+T 1600 300 5 10 0 0 0 0 1
+pintype=pwr
+T 1245 295 5 10 1 1 0 6 1
+pinlabel=VSS
+T 1395 345 5 10 1 1 0 0 1
+pinnumber=3
+T 1600 300 5 10 0 0 0 0 1
+pinseq=3
+}
+P 1600 700 1300 700 1 0 0
+{
+T 1600 700 5 10 0 0 0 0 1
+pintype=out
+T 1245 695 5 10 1 1 0 6 1
+pinlabel=\_RST\_
+T 1395 745 5 10 1 1 0 0 1
+pinnumber=1
+T 1600 700 5 10 0 0 0 0 1
+pinseq=1
+}
+T 695 1000 8 10 1 1 0 0 1
+refdes=U?
+T 395 0 8 10 1 1 0 0 1
+device=MCP130T
+T 695 1298 8 10 0 0 0 0 1
+description=Microcontroller Supervisory Circuit, Open Drain
+T 695 1498 8 10 0 0 0 0 1
+numslots=0
+T 1495 1698 8 10 0 1 0 0 1
+footprint=SOT23

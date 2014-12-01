@@ -1,0 +1,197 @@
+v 20130925 2
+P 0 2800 300 2800 1 0 0
+{
+T 0 2800 5 10 0 0 0 0 1
+pintype=in
+T 355 2795 5 10 1 1 0 0 1
+pinlabel=VIN
+T 205 2845 5 10 1 1 0 6 1
+pinnumber=4
+T 0 2800 5 10 0 0 0 0 1
+pinseq=4
+}
+P 0 2400 300 2400 1 0 0
+{
+T 0 2400 5 10 0 0 0 0 1
+pintype=in
+T 355 2395 5 10 1 1 0 0 1
+pinlabel=\_SHDN\_
+T 205 2445 5 10 1 1 0 6 1
+pinnumber=11
+T 0 2400 5 10 0 0 0 0 1
+pinseq=11
+}
+P 0 2000 300 2000 1 0 0
+{
+T 0 2000 5 10 0 0 0 0 1
+pintype=pas
+T 355 1995 5 10 1 1 0 0 1
+pinlabel=SS
+T 205 2045 5 10 1 1 0 6 1
+pinnumber=10
+T 0 2000 5 10 0 0 0 0 1
+pinseq=10
+}
+P 0 1600 300 1600 1 0 0
+{
+T 0 1600 5 10 0 0 0 0 1
+pintype=pas
+T 355 1595 5 10 1 1 0 0 1
+pinlabel=VC
+T 205 1645 5 10 1 1 0 6 1
+pinnumber=6
+T 0 1600 5 10 0 0 0 0 1
+pinseq=6
+}
+P 0 800 300 800 1 0 0
+{
+T 0 800 5 10 0 0 0 0 1
+pintype=in
+T 355 795 5 10 1 1 0 0 1
+pinlabel=BURST_EN
+T 205 845 5 10 1 1 0 6 1
+pinnumber=5
+T 0 800 5 10 0 0 0 0 1
+pinseq=5
+}
+P 2300 2800 2000 2800 1 0 0
+{
+T 2300 2800 5 10 0 0 0 0 1
+pintype=pas
+T 1945 2795 5 10 1 1 0 6 1
+pinlabel=SWH
+T 2095 2845 5 10 1 1 0 0 1
+pinnumber=3
+T 2300 2800 5 10 0 0 0 0 1
+pinseq=3
+}
+P 2300 2400 2000 2400 1 0 0
+{
+T 2300 2400 5 10 0 0 0 0 1
+pintype=pas
+T 1945 2395 5 10 1 1 0 6 1
+pinlabel=SWL
+T 2095 2445 5 10 1 1 0 0 1
+pinnumber=15
+T 2300 2400 5 10 0 0 0 0 1
+pinseq=15
+}
+P 2300 2000 2000 2000 1 0 0
+{
+T 2300 2000 5 10 0 0 0 0 1
+pintype=out
+T 1945 1995 5 10 1 1 0 6 1
+pinlabel=VOUT
+T 2095 2045 5 10 1 1 0 0 1
+pinnumber=13
+T 2300 2000 5 10 0 0 0 0 1
+pinseq=13
+}
+P 2300 1600 2000 1600 1 0 0
+{
+T 2300 1600 5 10 0 0 0 0 1
+pintype=pas
+T 1945 1595 5 10 1 1 0 6 1
+pinlabel=VBIAS
+T 2095 1645 5 10 1 1 0 0 1
+pinnumber=12
+T 2300 1600 5 10 0 0 0 0 1
+pinseq=12
+}
+P 2300 800 2000 800 1 0 0
+{
+T 2300 800 5 10 0 0 0 0 1
+pintype=in
+T 1945 795 5 10 1 1 0 6 1
+pinlabel=VFB
+T 2095 845 5 10 1 1 0 0 1
+pinnumber=7
+T 2300 800 5 10 0 0 0 0 1
+pinseq=7
+}
+P 2300 3200 2000 3200 1 0 0
+{
+T 2300 3200 5 10 0 0 0 0 1
+pintype=pas
+T 1945 3195 5 10 1 1 0 6 1
+pinlabel=VBST
+T 2095 3245 5 10 1 1 0 0 1
+pinnumber=2
+T 2300 3200 5 10 0 0 0 0 1
+pinseq=2
+}
+B 300 300 1700 3100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 1000 0 1000 300 1 0 0
+{
+T 1000 0 5 10 0 0 0 0 1
+pintype=pwr
+T 755 400 5 10 1 1 0 0 1
+pinlabel=SGND
+T 1005 150 5 10 1 1 0 6 1
+pinnumber=9
+T 1000 0 5 10 0 0 0 0 1
+pinseq=9
+}
+P 2300 500 2000 500 1 0 0
+{
+T 2400 500 5 10 0 0 90 0 1
+pintype=pwr
+T 1945 495 5 10 1 1 0 6 1
+pinlabel=PGND
+T 2095 545 5 10 1 1 0 0 1
+pinnumber=14
+T 2400 500 5 10 0 0 90 0 1
+pinseq=14
+}
+P 600 0 600 300 1 0 0
+{
+T 600 0 5 10 0 0 0 0 1
+pintype=pwr
+T 355 400 5 10 0 1 0 0 1
+pinlabel=SGND
+T 605 150 5 10 1 1 0 6 1
+pinnumber=16
+T 600 0 5 10 0 0 0 0 1
+pinseq=16
+}
+P 800 0 800 300 1 0 0
+{
+T 800 0 5 10 0 0 0 0 1
+pintype=pwr
+T 555 400 5 10 0 1 0 0 1
+pinlabel=SGND
+T 805 150 5 10 1 1 0 6 1
+pinnumber=8
+T 800 0 5 10 0 0 0 0 1
+pinseq=8
+}
+P 1200 0 1200 300 1 0 0
+{
+T 1200 0 5 10 0 0 0 0 1
+pintype=pwr
+T 1200 355 5 10 0 1 90 0 1
+pinlabel=SGND
+T 1205 150 5 10 1 1 0 6 1
+pinnumber=1
+T 1200 0 5 10 0 0 0 0 1
+pinseq=1
+}
+P 1400 0 1400 300 1 0 0
+{
+T 1400 0 5 10 0 0 0 0 1
+pintype=pwer
+T 1400 355 5 10 0 1 90 0 1
+pinlabel=SGND
+T 1405 150 5 10 1 1 0 6 1
+pinnumber=17
+T 1400 0 5 10 0 0 0 0 1
+pinseq=17
+}
+T 1595 95 8 10 1 1 0 0 1
+device=LM3433
+T 495 3495 8 10 1 1 0 0 1
+refdes=U?
+T 495 3795 8 10 0 0 0 0 1
+numslots=0
+T 495 3995 8 10 0 0 0 0 1
+description=High Voltage Step-Up/Step-Down DC/CD Converter

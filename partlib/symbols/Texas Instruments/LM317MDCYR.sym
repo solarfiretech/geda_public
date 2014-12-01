@@ -1,0 +1,54 @@
+v 20130925 2
+B 300 300 1500 700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 600 300 600 1 0 0
+{
+T 0 600 5 10 0 0 0 0 1
+pintype=in
+T 355 595 5 10 1 1 0 0 1
+pinlabel=IN
+T 205 645 5 10 1 1 0 6 1
+pinnumber=3
+T 0 600 5 10 0 0 0 0 1
+pinseq=3
+}
+P 1100 0 1100 300 1 0 0
+{
+T 1100 0 5 10 0 0 0 0 1
+pintype=pas
+T 1100 355 5 10 1 1 90 0 1
+pinlabel=ADJ
+T 1050 205 5 10 1 1 90 6 1
+pinnumber=1
+T 1100 0 5 10 0 0 0 0 1
+pinseq=1
+}
+P 2100 800 1800 800 1 0 0
+{
+T 2100 800 5 10 0 0 0 0 1
+pintype=out
+T 1745 795 5 10 1 1 0 6 1
+pinlabel=OUT
+T 1895 845 5 10 1 1 0 0 1
+pinnumber=2
+T 2100 800 5 10 0 0 0 0 1
+pinseq=2
+}
+P 2100 600 1800 600 1 0 0
+{
+T 2100 600 5 10 0 0 0 0 1
+pintype=out
+T 1745 595 5 10 1 1 0 6 1
+pinlabel=OUT
+T 1895 645 5 10 1 1 0 0 1
+pinnumber=4
+T 2100 600 5 10 0 0 0 0 1
+pinseq=4
+}
+T 995 1095 8 10 1 1 0 0 1
+refdes=U?
+T 1195 95 8 10 1 1 0 0 1
+device=LM317MDCYR
+T 295 1595 8 10 0 1 0 0 1
+description=3-Terminal Adjustable Regulator
+T 295 1395 8 10 0 1 0 0 1
+footprint=SOT223

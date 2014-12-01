@@ -1,0 +1,98 @@
+v 20130925 2
+B 300 200 1200 1700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 1700 300 1700 1 0 0
+{
+T 0 1700 5 10 0 0 0 0 1
+pintype=pas
+T 355 1695 5 10 1 1 0 0 1
+pinlabel=VIN
+T 205 1745 5 10 1 1 0 6 1
+pinnumber=1
+T 0 1700 5 10 0 0 0 0 1
+pinseq=1
+}
+P 0 1300 300 1300 1 0 0
+{
+T 0 1300 5 10 0 0 0 0 1
+pintype=in
+T 355 1295 5 10 1 1 0 0 1
+pinlabel=EN
+T 205 1345 5 10 1 1 0 6 1
+pinnumber=3
+T 0 1300 5 10 0 0 0 0 1
+pinseq=3
+}
+P 0 900 300 900 1 0 0
+{
+T 0 900 5 10 0 0 0 0 1
+pintype=pwr
+T 355 895 5 10 1 1 0 0 1
+pinlabel=GND
+T 205 945 5 10 1 1 0 6 1
+pinnumber=2
+T 0 900 5 10 0 0 0 0 1
+pinseq=2
+}
+P 1800 1700 1500 1700 1 0 0
+{
+T 1800 1700 5 10 0 0 0 0 1
+pintype=out
+T 1445 1695 5 10 1 1 0 6 1
+pinlabel=SW
+T 1595 1745 5 10 1 1 0 0 1
+pinnumber=7
+T 1800 1700 5 10 0 0 0 0 1
+pinseq=7
+}
+P 1800 1300 1500 1300 1 0 0
+{
+T 1800 1300 5 10 0 0 0 0 1
+pintype=in
+T 1445 1295 5 10 1 1 0 6 1
+pinlabel=FB
+T 1595 1345 5 10 1 1 0 0 1
+pinnumber=5
+T 1800 1300 5 10 0 0 0 0 1
+pinseq=5
+}
+P 1800 900 1500 900 1 0 0
+{
+T 1800 900 5 10 0 0 0 0 1
+pintype=out
+T 1445 895 5 10 1 1 0 6 1
+pinlabel=VOUT
+T 1595 945 5 10 1 1 0 0 1
+pinnumber=8
+T 1800 900 5 10 0 0 0 0 1
+pinseq=8
+}
+P 1800 500 1500 500 1 0 0
+{
+T 1800 500 5 10 0 0 0 0 1
+pintype=pas
+T 1445 495 5 10 1 1 0 6 1
+pinlabel=SGND
+T 1595 545 5 10 1 1 0 0 1
+pinnumber=4
+T 1800 500 5 10 0 0 0 0 1
+pinseq=4
+}
+P 1800 300 1500 300 1 0 0
+{
+T 1800 300 5 10 0 0 0 0 1
+pintype=pas
+T 1445 295 5 10 1 1 0 6 1
+pinlabel=PG
+T 1595 345 5 10 1 1 0 0 1
+pinnumber=6
+T 1800 300 5 10 0 0 0 0 1
+pinseq=6
+}
+T 695 2000 8 10 1 1 0 0 1
+refdes=U?
+T 195 0 8 10 1 1 0 0 1
+device=TPS62120DCNR
+T 195 2198 8 10 0 0 0 0 1
+description=High Efficiency Switching Regulator
+T 195 2398 8 10 0 0 0 0 1
+numslots=1

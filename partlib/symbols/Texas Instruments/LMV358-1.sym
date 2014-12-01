@@ -1,0 +1,67 @@
+v 20130925 2
+P 0 300 300 300 1 0 0
+{
+T 0 300 5 10 0 0 0 0 1
+pintype=in
+T 324 232 5 10 1 1 0 0 1
+pinlabel=+
+T 205 345 5 10 1 1 0 6 1
+pinnumber=1
+T 0 300 5 10 0 0 0 0 1
+pinseq=1
+}
+P 0 900 300 900 1 0 0
+{
+T 0 900 5 10 0 0 0 0 1
+pintype=in
+T 346 855 5 10 1 1 0 0 1
+pinlabel=-
+T 205 945 5 10 1 1 0 6 1
+pinnumber=3
+T 0 900 5 10 0 0 0 0 1
+pinseq=3
+}
+L 300 1100 300 100 3 0 0 0 -1 -1
+L 300 100 1200 600 3 0 0 0 -1 -1
+L 300 1100 1200 600 3 0 0 0 -1 -1
+P 1500 600 1200 600 1 0 0
+{
+T 1500 600 5 10 0 0 0 0 1
+pintype=out
+T 1145 595 5 10 0 1 0 6 1
+pinlabel=OUT
+T 1295 645 5 10 1 1 0 0 1
+pinnumber=4
+T 1500 600 5 10 0 0 0 0 1
+pinseq=4
+}
+P 700 0 701 333 1 0 0
+{
+T 700 0 5 10 0 0 0 0 1
+pintype=pwr
+T 765 478 5 10 1 1 180 0 1
+pinlabel=V-
+T 573 224 5 10 1 1 180 6 1
+pinnumber=3
+T 700 0 5 10 0 0 0 0 1
+pinseq=3
+}
+P 700 1200 700 872 1 0 0
+{
+T 700 1200 5 10 0 0 0 0 1
+pintype=pwr
+T 817 710 5 10 1 1 0 6 1
+pinlabel=V+
+T 680 1109 5 10 1 1 180 0 1
+pinnumber=5
+T 700 1200 5 10 0 0 0 0 1
+pinseq=5
+}
+T 995 795 8 10 1 1 0 0 1
+device=LMV358
+T 995 995 8 10 1 1 0 0 1
+refdes=U?
+T 995 1395 8 10 0 0 0 0 1
+description=Low-Voltage Rail-To-Rail Output Operational Amplifier
+T 995 1595 8 10 0 0 0 0 1
+numslots=1

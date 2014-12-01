@@ -1,0 +1,318 @@
+v 20130925 2
+T -7605 2598 8 10 0 0 0 0 1
+description=16-Bit Digital Signal Controller
+B 300 200 5100 5100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 2900 300 2900 1 0 0
+{
+T 0 2900 5 10 0 0 0 0 1
+pintype=in
+T 355 2895 5 10 1 1 0 0 1
+pinlabel=\_MCLR\_
+T 205 2945 5 10 1 1 0 6 1
+pinnumber=1
+T 0 2900 5 10 0 0 0 0 1
+pinseq=1
+}
+P 5700 3700 5400 3700 1 0 0
+{
+T 5700 3700 5 10 0 0 0 6 1
+pintype=io
+T 5345 3695 5 10 1 1 0 6 1
+pinlabel=AN0/OA2OUT/RA0
+T 5495 3745 5 10 1 1 0 0 1
+pinnumber=2
+T 5700 3700 5 10 0 0 0 6 1
+pinseq=2
+}
+P 5700 3900 5400 3900 1 0 0
+{
+T 5700 3900 5 10 0 0 0 6 1
+pintype=IO
+T 5345 3895 5 10 1 1 0 6 1
+pinlabel=AN1/C2IN1+/RA1
+T 5495 3945 5 10 1 1 0 0 1
+pinnumber=3
+T 5700 3900 5 10 0 0 0 6 1
+pinseq=3
+}
+P 5700 300 5400 300 1 0 0
+{
+T 5700 300 5 10 0 0 0 6 1
+pintype=io
+T 5345 295 5 10 1 1 0 6 1
+pinlabel=PGED3/VREF-/AN2/C2IN1-/\_SS1\_/RPI32/CTED2/RB0
+T 5495 345 5 10 1 1 0 0 1
+pinnumber=4
+T 5700 300 5 10 0 0 0 6 1
+pinseq=4
+}
+P 5700 500 5400 500 1 0 0
+{
+T 5700 500 5 10 0 0 0 6 1
+pintype=io
+T 5345 495 5 10 1 1 0 6 1
+pinlabel=PGEC3/VREF+/AN3/OA1OUT/RPI33/CTED1/RB1
+T 5495 545 5 10 1 1 0 0 1
+pinnumber=5
+T 5700 500 5 10 0 0 0 6 1
+pinseq=5
+}
+P 5700 700 5400 700 1 0 0
+{
+T 5700 700 5 10 0 0 0 6 1
+pintype=io
+T 5345 695 5 10 1 1 0 6 1
+pinlabel=PGEC1/AN4/C1IN1+/RPI34/RB2
+T 5495 745 5 10 1 1 0 0 1
+pinnumber=6
+T 5700 700 5 10 0 0 0 6 1
+pinseq=6
+}
+P 5700 900 5400 900 1 0 0
+{
+T 5700 900 5 10 0 0 0 6 1
+pintype=io
+T 5345 895 5 10 1 1 0 6 1
+pinlabel=PGED1/AN5/C1IN1-/RP35/RB3
+T 5495 945 5 10 1 1 0 0 1
+pinnumber=7
+T 5700 900 5 10 0 0 0 6 1
+pinseq=7
+}
+P 0 500 300 500 1 0 0
+{
+T 0 500 5 10 0 0 0 0 1
+pintype=pwr
+T 355 495 5 10 1 1 0 0 1
+pinlabel=VSS
+T 205 545 5 10 1 1 0 6 1
+pinnumber=8
+T 0 500 5 10 0 0 0 0 1
+pinseq=8
+}
+P 5700 4100 5400 4100 1 0 0
+{
+T 5700 4100 5 10 0 0 0 6 1
+pintype=io
+T 5345 4095 5 10 1 1 0 6 1
+pinlabel=OSC1/CLKI/RA2
+T 5495 4145 5 10 1 1 0 0 1
+pinnumber=9
+T 5700 4100 5 10 0 0 0 6 1
+pinseq=9
+}
+P 5700 4300 5400 4300 1 0 0
+{
+T 5700 4300 5 10 0 0 0 6 1
+pintype=io
+T 5345 4295 5 10 1 1 0 6 1
+pinlabel=OSC2/CLKO/RA3
+T 5495 4345 5 10 1 1 0 0 1
+pinnumber=10
+T 5700 4300 5 10 0 0 0 6 1
+pinseq=10
+}
+P 5700 1100 5400 1100 1 0 0
+{
+T 5700 1100 5 10 0 0 0 6 1
+pintype=io
+T 5345 1095 5 10 1 1 0 6 1
+pinlabel=FLT32/RP36/RB4
+T 5495 1145 5 10 1 1 0 0 1
+pinnumber=11
+T 5700 1100 5 10 0 0 0 6 1
+pinseq=11
+}
+P 5700 4500 5400 4500 1 0 0
+{
+T 5700 4500 5 10 0 0 0 6 1
+pintype=io
+T 5345 4495 5 10 1 1 0 6 1
+pinlabel=CVREF20/RP20/T1CK/RA4
+T 5495 4545 5 10 1 1 0 0 1
+pinnumber=12
+T 5700 4500 5 10 0 0 0 6 1
+pinseq=12
+}
+P 5700 4900 5400 4900 1 0 0
+{
+T 5700 4900 5 10 0 0 0 6 1
+pintype=pwr
+T 5345 4895 5 10 1 1 0 6 1
+pinlabel=VDD
+T 5495 4945 5 10 1 1 0 0 1
+pinnumber=13
+T 5700 4900 5 10 0 0 0 6 1
+pinseq=13
+}
+P 5700 1300 5400 1300 1 0 0
+{
+T 5700 1300 5 10 0 0 0 6 1
+pintype=io
+T 5345 1295 5 10 1 1 0 6 1
+pinlabel=PGED2/ASDA2/RP37/RB5
+T 5495 1345 5 10 1 1 0 0 1
+pinnumber=14
+T 5700 1300 5 10 0 0 0 6 1
+pinseq=14
+}
+P 5700 1500 5400 1500 1 0 0
+{
+T 5700 1500 5 10 0 0 0 0 1
+pintype=io
+T 5345 1495 5 10 1 1 0 6 1
+pinlabel=PGEC2/ASCL2/RP38/RB6
+T 5495 1545 5 10 1 1 0 0 1
+pinnumber=15
+T 5700 1500 5 10 0 0 0 0 1
+pinseq=15
+}
+P 5700 1700 5400 1700 1 0 0
+{
+T 5700 1700 5 10 0 0 0 0 1
+pintype=io
+T 5345 1695 5 10 1 1 0 6 1
+pinlabel=SCK1/RP39/INT0/RB7
+T 5495 1745 5 10 1 1 0 0 1
+pinnumber=16
+T 5700 1700 5 10 0 0 0 0 1
+pinseq=16
+}
+P 5700 1900 5400 1900 1 0 0
+{
+T 5700 1900 5 10 0 0 0 0 1
+pintype=io
+T 5345 1895 5 10 1 1 0 6 1
+pinlabel=TCK/CVREF10/ASCL1/SDO1/RP40/T4CK/RB8
+T 5495 1945 5 10 1 1 0 0 1
+pinnumber=17
+T 5700 1900 5 10 0 0 0 0 1
+pinseq=17
+}
+P 5700 2100 5400 2100 1 0 0
+{
+T 5700 2100 5 10 0 0 0 0 1
+pintype=io
+T 5345 2095 5 10 1 1 0 6 1
+pinlabel=TMS/ASDA1/SDI1/RP41/RB9
+T 5495 2145 5 10 1 1 0 0 1
+pinnumber=18
+T 5700 2100 5 10 0 0 0 0 1
+pinseq=18
+}
+P 0 700 300 700 1 0 0
+{
+T 0 700 5 10 0 0 0 6 1
+pintype=pwr
+T 355 695 5 10 1 1 0 0 1
+pinlabel=VSS
+T 205 745 5 10 1 1 0 6 1
+pinnumber=19
+T 0 700 5 10 0 0 0 6 1
+pinseq=19
+}
+P 0 2300 300 2300 1 0 0
+{
+T 0 2300 5 10 0 0 0 6 1
+pintype=out
+T 355 2295 5 10 1 1 0 0 1
+pinlabel=VCAP
+T 205 2345 5 10 1 1 0 6 1
+pinnumber=20
+T 0 2300 5 10 0 0 0 6 1
+pinseq=20
+}
+P 5700 2300 5400 2300 1 0 0
+{
+T 5700 2300 5 10 0 0 0 0 1
+pintype=io
+T 5345 2295 5 10 1 1 0 6 1
+pinlabel=TDO/RP42/PWM3H/RB10
+T 5495 2345 5 10 1 1 0 0 1
+pinnumber=21
+T 5700 2300 5 10 0 0 0 0 1
+pinseq=21
+}
+P 5700 2500 5400 2500 1 0 0
+{
+T 5700 2500 5 10 0 0 0 0 1
+pintype=io
+T 5345 2495 5 10 1 1 0 6 1
+pinlabel=TDI/RP43/PWM3L/RB11
+T 5495 2545 5 10 1 1 0 0 1
+pinnumber=22
+T 5700 2500 5 10 0 0 0 0 1
+pinseq=22
+}
+P 5700 2700 5400 2700 1 0 0
+{
+T 5700 2700 5 10 0 0 0 0 1
+pintype=io
+T 5345 2695 5 10 1 1 0 6 1
+pinlabel=RP144/PWM2H/RB12
+T 5495 2745 5 10 1 1 0 0 1
+pinnumber=23
+T 5700 2700 5 10 0 0 0 0 1
+pinseq=23
+}
+P 5700 2900 5400 2900 1 0 0
+{
+T 5700 2900 5 10 0 0 0 0 1
+pintype=io
+T 5345 2895 5 10 1 1 0 6 1
+pinlabel=RPI45/PWM2L/CTPLS/RB13
+T 5495 2945 5 10 1 1 0 0 1
+pinnumber=24
+T 5700 2900 5 10 0 0 0 0 1
+pinseq=24
+}
+P 5700 3100 5400 3100 1 0 0
+{
+T 5700 3100 5 10 0 0 0 0 1
+pintype=io
+T 5345 3095 5 10 1 1 0 6 1
+pinlabel=RPI46/PWM1H/T3CK/RB14
+T 5495 3145 5 10 1 1 0 0 1
+pinnumber=25
+T 5700 3100 5 10 0 0 0 0 1
+pinseq=25
+}
+P 5700 3300 5400 3300 1 0 0
+{
+T 5700 3300 5 10 0 0 0 0 1
+pintype=io
+T 5345 3295 5 10 1 1 0 6 1
+pinlabel=RPI47/PWM1L/T5CK/RB15
+T 5495 3345 5 10 1 1 0 0 1
+pinnumber=26
+T 5700 3300 5 10 0 0 0 0 1
+pinseq=26
+}
+P 0 300 300 300 1 0 0
+{
+T 0 300 5 10 0 0 0 6 1
+pintype=pwr
+T 355 295 5 10 1 1 0 0 1
+pinlabel=AVSS
+T 205 345 5 10 1 1 0 6 1
+pinnumber=27
+T 0 300 5 10 0 0 0 6 1
+pinseq=27
+}
+P 5700 5100 5400 5100 1 0 0
+{
+T 5700 5100 5 10 0 0 0 0 1
+pintype=pwr
+T 5345 5095 5 10 1 1 0 6 1
+pinlabel=AVDD
+T 5495 5145 5 10 1 1 0 0 1
+pinnumber=28
+T 5700 5100 5 10 0 0 0 0 1
+pinseq=28
+}
+T 2595 5400 8 10 1 1 0 0 1
+refdes=U?
+T 1795 0 8 10 1 1 0 0 1
+device=dsPIC33EP128MC202
+T 1095 5698 8 10 0 0 0 0 1
+device=16-Bit Digital Signal Controller

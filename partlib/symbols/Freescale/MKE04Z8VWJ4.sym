@@ -1,0 +1,228 @@
+v 20130925 2
+B 300 200 1900 2100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 2100 300 2100 1 0 0
+{
+T 0 2100 5 10 0 0 0 0 1
+pintype=io
+T 355 2095 5 10 1 1 0 0 1
+pinlabel=PTA5
+T 205 2145 5 10 1 1 0 6 1
+pinnumber=1
+T 0 2100 5 10 0 0 0 0 1
+pinseq=1
+}
+P 0 1900 300 1900 1 0 0
+{
+T 0 1900 5 10 0 0 0 0 1
+pintype=io
+T 355 1895 5 10 1 1 0 0 1
+pinlabel=PTA4
+T 205 1945 5 10 1 1 0 6 1
+pinnumber=2
+T 0 1900 5 10 0 0 0 0 1
+pinseq=3
+}
+P 0 1700 300 1700 1 0 0
+{
+T 0 1700 5 10 0 0 0 0 1
+pintype=pwr
+T 355 1695 5 10 1 1 0 0 1
+pinlabel=VDD/VREFH
+T 205 1745 5 10 1 1 0 6 1
+pinnumber=3
+T 0 1700 5 10 0 0 0 0 1
+pinseq=3
+}
+P 0 1500 300 1500 1 0 0
+{
+T 0 1500 5 10 0 0 0 0 1
+pintype=pwr
+T 355 1495 5 10 1 1 0 0 1
+pinlabel=VSS/VREFL
+T 205 1545 5 10 1 1 0 6 1
+pinnumber=4
+T 0 1500 5 10 0 0 0 0 1
+pinseq=4
+}
+P 0 1300 300 1300 1 0 0
+{
+T 0 1300 5 10 0 0 0 0 1
+pintype=io
+T 355 1295 5 10 1 1 0 0 1
+pinlabel=PTB7
+T 205 1345 5 10 1 1 0 6 1
+pinnumber=5
+T 0 1300 5 10 0 0 0 0 1
+pinseq=5
+}
+P 0 1100 300 1100 1 0 0
+{
+T 0 1100 5 10 0 0 0 0 1
+pintype=io
+T 355 1095 5 10 1 1 0 0 1
+pinlabel=PTB6
+T 205 1145 5 10 1 1 0 6 1
+pinnumber=6
+T 0 1100 5 10 0 0 0 0 1
+pinseq=6
+}
+P 0 900 300 900 1 0 0
+{
+T 0 900 5 10 0 0 0 0 1
+pintype=io
+T 355 895 5 10 1 1 0 0 1
+pinlabel=PTB5
+T 205 945 5 10 1 1 0 6 1
+pinnumber=7
+T 0 900 5 10 0 0 0 0 1
+pinseq=7
+}
+P 0 700 300 700 1 0 0
+{
+T 0 700 5 10 0 0 0 0 1
+pintype=io
+T 355 695 5 10 1 1 0 0 1
+pinlabel=PTB4
+T 205 745 5 10 1 1 0 6 1
+pinnumber=8
+T 0 700 5 10 0 0 0 0 1
+pinseq=8
+}
+P 0 500 300 500 1 0 0
+{
+T 0 500 5 10 0 0 0 0 1
+pintype=io
+T 355 495 5 10 1 1 0 0 1
+pinlabel=PTC3
+T 205 545 5 10 1 1 0 6 1
+pinnumber=9
+T 0 500 5 10 0 0 0 0 1
+pinseq=9
+}
+P 0 300 300 300 1 0 0
+{
+T 0 300 5 10 0 0 0 0 1
+pintype=io
+T 355 295 5 10 1 1 0 0 1
+pinlabel=PTC2
+T 205 345 5 10 1 1 0 6 1
+pinnumber=10
+T 0 300 5 10 0 0 0 0 1
+pinseq=10
+}
+P 2500 300 2200 300 1 0 0
+{
+T 2500 300 5 10 0 0 0 0 1
+pintype=io
+T 2145 295 5 10 1 1 0 6 1
+pinlabel=PTC1
+T 2295 345 5 10 1 1 0 0 1
+pinnumber=11
+T 2500 300 5 10 0 0 0 0 1
+pinseq=11
+}
+P 2500 500 2200 500 1 0 0
+{
+T 2500 500 5 10 0 0 0 0 1
+pintype=io
+T 2145 495 5 10 1 1 0 6 1
+pinlabel=PTC0
+T 2295 545 5 10 1 1 0 0 1
+pinnumber=12
+T 2500 500 5 10 0 0 0 0 1
+pinseq=12
+}
+P 2500 700 2200 700 1 0 0
+{
+T 2500 700 5 10 0 0 0 0 1
+pintype=io
+T 2145 695 5 10 1 1 0 6 1
+pinlabel=PTB3
+T 2295 745 5 10 1 1 0 0 1
+pinnumber=13
+T 2500 700 5 10 0 0 0 0 1
+pinseq=13
+}
+P 2500 900 2200 900 1 0 0
+{
+T 2500 900 5 10 0 0 0 0 1
+pintype=io
+T 2145 895 5 10 1 1 0 6 1
+pinlabel=PTB2
+T 2295 945 5 10 1 1 0 0 1
+pinnumber=14
+T 2500 900 5 10 0 0 0 0 1
+pinseq=14
+}
+P 2500 1100 2200 1100 1 0 0
+{
+T 2500 1100 5 10 0 0 0 0 1
+pintype=io
+T 2145 1095 5 10 1 1 0 6 1
+pinlabel=PTB1
+T 2295 1145 5 10 1 1 0 0 1
+pinnumber=15
+T 2500 1100 5 10 0 0 0 0 1
+pinseq=15
+}
+P 2500 1300 2200 1300 1 0 0
+{
+T 2500 1300 5 10 0 0 0 0 1
+pintype=io
+T 2145 1295 5 10 1 1 0 6 1
+pinlabel=PTB0
+T 2295 1345 5 10 1 1 0 0 1
+pinnumber=16
+T 2500 1300 5 10 0 0 0 0 1
+pinseq=16
+}
+P 2500 1500 2200 1500 1 0 0
+{
+T 2500 1500 5 10 0 0 0 0 1
+pintype=io
+T 2145 1495 5 10 1 1 0 6 1
+pinlabel=PTA3
+T 2295 1545 5 10 1 1 0 0 1
+pinnumber=17
+T 2500 1500 5 10 0 0 0 0 1
+pinseq=17
+}
+P 2500 1700 2200 1700 1 0 0
+{
+T 2500 1700 5 10 0 0 0 0 1
+pintype=io
+T 2145 1695 5 10 1 1 0 6 1
+pinlabel=PTA2
+T 2295 1745 5 10 1 1 0 0 1
+pinnumber=18
+T 2500 1700 5 10 0 0 0 0 1
+pinseq=18
+}
+P 2500 1900 2200 1900 1 0 0
+{
+T 2500 1900 5 10 0 0 0 0 1
+pintype=io
+T 2145 1895 5 10 1 1 0 6 1
+pinlabel=PTA1
+T 2295 1945 5 10 1 1 0 0 1
+pinnumber=19
+T 2500 1900 5 10 0 0 0 0 1
+pinseq=19
+}
+P 2500 2100 2200 2100 1 0 0
+{
+T 2500 2100 5 10 0 0 0 0 1
+pintype=io
+T 2145 2095 5 10 1 1 0 6 1
+pinlabel=PTA0
+T 2295 2145 5 10 1 1 0 0 1
+pinnumber=20
+T 2500 2100 5 10 0 0 0 0 1
+pinseq=20
+}
+T 1095 2400 8 10 1 1 0 0 1
+refdes=U?
+T 495 0 8 10 1 1 0 0 1
+device=MKE04Z8VWJ4
+T 295 2698 8 10 0 1 0 0 1
+description=KE04 Sub-Family, Cortex-M0+ core, 8KB Flash, 1KB Ram
