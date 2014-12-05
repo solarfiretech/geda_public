@@ -101,7 +101,7 @@ pinseq=9
 }
 T 995 95 8 10 1 1 0 0 1
 device=XC9428
-T 695 1895 8 10 1 1 0 0 1
+T 595 1895 8 10 1 1 0 0 1
 refdes=U?
 T 195 2295 8 10 0 0 0 0 1
 description=Step-Down DC/DC Converter
