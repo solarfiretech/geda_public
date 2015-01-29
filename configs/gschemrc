@@ -1,0 +1,7 @@
+;
+; Configure gschem to use a light color background
+;
+(load (build-path geda-rc-path "gschem-colormap-lightbg"))
+(define default-titleblock "title-bordered-B.sym")
+
+
