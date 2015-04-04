@@ -367,7 +367,9 @@ T 2495 3995 8 10 1 1 0 0 1
 refdes=U?
 T 3295 -5 8 10 1 1 0 0 1
 device=Teensy 3.1
-T 1395 4456 8 10 1 0 0 0 1
+T 1395 4456 8 10 0 0 0 0 1
 comment=Teensy 3.1 Developer Board
-T 1395 4656 8 10 1 0 0 0 1
+T 1395 4656 8 10 0 0 0 0 1
 numslots=0
+T 1395 4256 8 10 0 0 0 0 1
+footprint=teensy3_1
