@@ -1,5 +1,5 @@
-#ignore backup files
-#*.*#
+# ignore backup files
+*.sym#
 *.*~
 .*
 
