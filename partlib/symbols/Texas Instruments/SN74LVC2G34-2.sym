@@ -1,0 +1,32 @@
+v 20140308 2
+P 300 1100 300 800 1 0 0
+{
+T 250 1000 5 10 0 0 90 6 1
+pintype=pwr
+T 495 600 9 10 1 1 0 6 1
+pinlabel=VCC
+T 345 850 5 10 1 1 0 0 1
+pinnumber=5
+T 250 1000 5 10 0 0 90 6 1
+pinseq=5
+}
+B 0 300 600 500 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
+P 300 0 300 300 1 0 0
+{
+T 250 100 5 10 0 0 90 0 1
+pintype=pwr
+T 495 500 9 10 1 1 180 0 1
+pinlabel=GND
+T 345 250 5 10 1 1 180 6 1
+pinnumber=2
+T 250 100 5 10 0 0 90 0 1
+pinseq=2
+}
+T 700 400 8 10 1 1 0 0 1
+device=SN74LVC2G34
+T 700 595 8 10 1 1 0 0 1
+refdes=U?
+T 0 1495 8 10 0 0 0 0 1
+numslots=0
+T 0 1695 8 10 0 0 0 0 1
+description=Dual Gate Buffer

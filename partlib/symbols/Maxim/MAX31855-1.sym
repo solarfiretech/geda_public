@@ -1,0 +1,87 @@
+v 20140308 2
+B 300 200 1000 1300 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
+P 0 1000 300 1000 1 0 0
+{
+T 100 1050 5 10 0 0 0 0 1
+pintype=in
+T 355 995 9 10 1 1 0 0 1
+pinlabel=T+
+T 205 1045 5 10 1 1 0 6 1
+pinnumber=3
+T 100 1050 5 10 0 0 0 0 1
+pinseq=3
+}
+P 0 600 300 600 1 0 0
+{
+T 100 650 5 10 0 0 0 0 1
+pintype=in
+T 355 595 9 10 1 1 0 0 1
+pinlabel=T-
+T 205 645 5 10 1 1 0 6 1
+pinnumber=2
+T 100 650 5 10 0 0 0 0 1
+pinseq=2
+}
+P 1600 1300 1300 1300 1 0 0
+{
+T 1500 1350 5 10 0 0 0 6 1
+pintype=pwr
+T 1245 1295 9 10 1 1 0 6 1
+pinlabel=VCC
+T 1395 1345 5 10 1 1 0 0 1
+pinnumber=4
+T 1500 1350 5 10 0 0 0 6 1
+pinseq=4
+}
+P 1600 1000 1300 1000 1 0 0
+{
+T 1500 1050 5 10 0 0 0 6 1
+pintype=in
+T 1245 995 9 10 1 1 0 6 1
+pinlabel=SCK
+T 1395 1045 5 10 1 1 0 0 1
+pinnumber=5
+T 1500 1050 5 10 0 0 0 6 1
+pinseq=5
+}
+P 1600 800 1300 800 1 0 0
+{
+T 1500 850 5 10 0 0 0 6 1
+pintype=out
+T 1245 795 9 10 1 1 0 6 1
+pinlabel=SO
+T 1395 845 5 10 1 1 0 0 1
+pinnumber=7
+T 1500 850 5 10 0 0 0 6 1
+pinseq=7
+}
+P 1600 600 1300 600 1 0 0
+{
+T 1500 650 5 10 0 0 0 6 1
+pintype=in
+T 1245 595 9 10 1 1 0 6 1
+pinlabel=\_CS\_
+T 1395 645 5 10 1 1 0 0 1
+pinnumber=6
+T 1500 650 5 10 0 0 0 6 1
+pinseq=6
+}
+P 1600 300 1300 300 1 0 0
+{
+T 1500 350 5 10 0 0 0 6 1
+pintype=pwr
+T 1245 295 9 10 1 1 0 6 1
+pinlabel=GND
+T 1395 345 5 10 1 1 0 0 1
+pinnumber=1
+T 1500 350 5 10 0 0 0 6 1
+pinseq=1
+}
+T 495 1600 8 10 1 1 0 0 1
+refdes=U?
+T 395 0 8 10 1 1 0 0 1
+device=MAX31855
+T 395 2097 8 10 0 0 0 0 1
+description=Cold-Junction Compensated Thermoucouple to Digital Converter
+T 395 1897 8 10 0 0 0 0 1
+numslots=0
