@@ -1,0 +1,109 @@
+v 20140308 2
+B 300 300 2300 1100 3 0 1 0 -1 -1 0 -1 -1 -1 -1 -1
+P 2900 900 2600 900 1 0 0
+{
+T 2800 950 5 10 0 0 0 6 1
+pintype=in
+T 2545 895 9 10 1 1 0 6 1
+pinlabel=COMP
+T 2695 945 5 10 1 1 0 0 1
+pinnumber=1
+T 2800 950 5 10 0 0 0 6 1
+pinseq=1
+}
+P 2900 500 2600 500 1 0 0
+{
+T 2800 550 5 10 0 0 0 6 1
+pintype=in
+T 2545 495 9 10 1 1 0 6 1
+pinlabel=FB
+T 2695 545 5 10 1 1 0 0 1
+pinnumber=8
+T 2800 550 5 10 0 0 0 6 1
+pinseq=8
+}
+P 2000 0 2000 300 1 0 0
+{
+T 1950 100 5 10 0 0 90 0 1
+pintype=pwr
+T 1855 400 9 10 1 1 0 0 1
+pinlabel=GND
+T 1950 205 5 10 1 1 90 6 1
+pinnumber=6
+T 1950 100 5 10 0 0 90 0 1
+pinseq=6
+}
+P 1400 0 1400 300 1 0 0
+{
+T 1350 100 5 10 0 0 90 0 1
+pintype=pas
+T 1255 400 9 10 1 1 0 0 1
+pinlabel=RT
+T 1350 205 5 10 1 1 90 6 1
+pinnumber=7
+T 1350 100 5 10 0 0 90 0 1
+pinseq=7
+}
+P 700 0 700 300 1 0 0
+{
+T 650 100 5 10 0 0 90 0 1
+pintype=out
+T 455 400 9 10 1 1 0 0 1
+pinlabel=VCC
+T 650 205 5 10 1 1 90 6 1
+pinnumber=5
+T 650 100 5 10 0 0 90 0 1
+pinseq=5
+}
+P 0 900 300 900 1 0 0
+{
+T 100 950 5 10 0 0 0 0 1
+pintype=in
+T 355 895 9 10 1 1 0 0 1
+pinlabel=EN
+T 205 945 5 10 1 1 0 6 1
+pinnumber=2
+T 100 950 5 10 0 0 0 0 1
+pinseq=2
+}
+P 700 1700 700 1400 1 0 0
+{
+T 650 1600 5 10 0 0 90 6 1
+pintype=pwr
+T 555 1300 9 10 1 1 180 6 1
+pinlabel=VIN
+T 650 1495 5 10 1 1 90 0 1
+pinnumber=4
+T 650 1600 5 10 0 0 90 6 1
+pinseq=4
+}
+P 2000 1700 2000 1400 1 0 0
+{
+T 1950 1600 5 10 0 0 90 6 1
+pintype=out
+T 1855 1300 9 10 1 1 180 6 1
+pinlabel=SW
+T 1950 1495 5 10 1 1 90 0 1
+pinnumber=3
+T 1950 1600 5 10 0 0 90 6 1
+pinseq=3
+}
+P 0 600 300 600 1 0 0
+{
+T 100 650 5 10 0 0 0 0 1
+pintype=pas
+T 355 595 9 10 1 1 0 0 1
+pinlabel=EP
+T 205 645 5 10 1 1 0 6 1
+pinnumber=7
+T 100 650 5 10 0 0 0 0 1
+pinseq=7
+}
+T 2295 95 8 10 1 1 0 0 1
+device=EP5001SD/NOPB
+T 2295 1495 8 10 1 1 0 0 1
+refdes=U?
+T 395 2195 8 10 0 0 0 0 1
+description=IC REG MULT CONFIG ISO ADJ 8LLP
+T 395 2395 8 10 0 0 0 0 1
+numslots=0
