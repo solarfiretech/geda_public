@@ -14,6 +14,7 @@
 (component-library (build-path gedasymbols "Orient Display") "Orient Display (local)")
 (component-library (build-path gedasymbols "On Semiconductor") "On Semiconductor (local)")
 (component-library (build-path gedasymbols "NXP") "NXP (local)")
+(component-library (build-path gedasymbols "Nordic Semiconductor") "Nordic Semiconductor (local)")
 (component-library (build-path gedasymbols "Murata") "Murata (local)")
 (component-library (build-path gedasymbols "Micro Commercial Co") "Micro Commercial Co (local)")
 (component-library (build-path gedasymbols "Microchip") "Microchip (local)")
