@@ -1,13 +1,14 @@
-Element["" "SMB case diode" "D?" "" 291339 53150 0 10000 0 100 ""]
+
+Element["" "" "" "" 68.7793mm 60.6100mm 0.0000 0.0000 0 100 ""]
 (
-	Pad[-10827 0 -8859 0 9843 2000 11843 "" "2" "square"]
-	Pad[8858 0 10826 0 9843 2000 11843 "" "1" "square"]
-	ElementLine [-16733 -2953 -16733 2952 1000]
-	ElementLine [10826 8858 10826 5905 1000]
-	ElementLine [-10827 8858 10826 8858 1000]
-	ElementLine [-10827 5905 -10827 8858 2000]
-	ElementLine [10826 -8859 10826 -5906 1000]
-	ElementLine [-10827 -8859 10826 -8859 1000]
-	ElementLine [-10827 -8859 -10827 -5906 2000]
+	Pad[-2.1419mm -0.3119mm -2.1419mm 0.4681mm 1.5200mm 16.00mil 1.9264mm "1" "1" "square"]
+	Pad[2.1281mm -0.3119mm 2.1281mm 0.4681mm 1.5200mm 16.00mil 1.9264mm "2" "2" "square"]
+	ElementLine [2.1181mm -1.5619mm -2.1319mm -1.5619mm 0.2000mm]
+	ElementLine [-2.1319mm -1.5619mm -2.1319mm -1.3119mm 0.2000mm]
+	ElementLine [2.1181mm -1.5619mm 2.1181mm -1.3119mm 0.2000mm]
+	ElementLine [2.1181mm 1.7381mm -2.1319mm 1.7381mm 0.2000mm]
+	ElementLine [-2.1319mm 1.7381mm -2.1319mm 1.4381mm 0.2000mm]
+	ElementLine [2.1181mm 1.7381mm 2.1181mm 1.4881mm 0.2000mm]
+	ElementLine [-1.0319mm 1.7381mm -1.0319mm -1.5619mm 0.2000mm]
 
 	)
