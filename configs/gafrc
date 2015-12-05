@@ -2,6 +2,7 @@
 ; Configure the local library
 ;
 (define gedasymbols "${HOME}/geda_public/partlib/symbols")
+(component-library (build-path gedasymbols "Wurth Electronics") "Wurth Electronics (local)")
 (component-library (build-path gedasymbols "Vishay") "Vishay (local)")
 (component-library (build-path gedasymbols "tubes") "Vacuum Tubes (local)")
 (component-library (build-path gedasymbols "Transformers") "Transformers (local)")
