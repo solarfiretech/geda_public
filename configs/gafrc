@@ -30,6 +30,7 @@
 (component-library (build-path gedasymbols "Intersil") "Intersil (local)")
 (component-library (build-path gedasymbols "Infineon") "Infineon (local)")
 (component-library (build-path gedasymbols "Generic") "Generic (local)")
+(component-library (build-path gedasymbols "Fox") "Fox (local)")
 (component-library (build-path gedasymbols "FTDI") "FTDI (local)")
 (component-library (build-path gedasymbols "Freescale") "Frescale Semiconductors (local)")
 (component-library (build-path gedasymbols "Fairchild") "Fairchild (local)")
